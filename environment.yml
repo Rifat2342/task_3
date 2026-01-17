@@ -1,0 +1,14 @@
+name: task3-baseline
+channels:
+  - pytorch
+  - conda-forge
+  - defaults
+dependencies:
+  - python=3.10
+  - numpy
+  - pandas
+  - pillow
+  - pytorch
+  - torchvision
+  - tqdm
+  - pip

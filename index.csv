@@ -1,0 +1,9 @@
+task,scenario_id,scenario_name,video_frames_csv,video_color_dir,video_disparity_dir,radio_e2,radio_srs,annotation,notes
+task1,exp1,blockage_arm,task1/exp1/video/frames.csv,task1/exp1/video/color,task1/exp1/video/disparity,task1/exp1/radio/E2.csv,task1/exp1/radio/SRS.json,task1/exp1/annotations/exp1.csv,Blockage/non-blockage with robotic arm
+task1,exp2,ru_nonaligned_arm,task1/exp2/video/frames.csv,task1/exp2/video/color,task1/exp2/video/disparity,task1/exp2/radio/E2.csv,task1/exp2/radio/SRS.json,task1/exp2/annotations/exp2.csv,"RU non-aligned, same movement with robotic arm"
+task1,exp3,curtain_up_arm_steady,task1/exp3/video/frames.csv,task1/exp3/video/color,task1/exp3/video/disparity,task1/exp3/radio/E2.csv,task1/exp3/radio/SRS.json,task1/exp3/annotations/exp3.csv,"Curtain up, robotic arm steady"
+task1,exp4,curtain_down_arm_steady,task1/exp4/video/frames.csv,task1/exp4/video/color,task1/exp4/video/disparity,task1/exp4/radio/E2.csv,task1/exp4/radio/SRS.json,task1/exp4/annotations/exp4.csv,"Curtain down, robotic arm steady"
+task1,exp5,curtain_up,task1/exp5/video/frames.csv,task1/exp5/video/color,task1/exp5/video/disparity,task1/exp5/radio/E2.csv,task1/exp5/radio/SRS.json,task1/exp5/annotations/exp5.csv,Curtain up
+task2,exp6,ue_turtlebot,task2/exp6/video/frames.csv,task2/exp6/video/color,task2/exp6/video/disparity,task2/exp6/radio/E2.csv,task2/exp6/radio/SRS.json,task2/exp6/annotations/exp6_translation.csv,UE on Turtlebot
+task2,exp7,ue_turtlebot,task2/exp7/video/frames.csv,task2/exp7/video/color,task2/exp7/video/disparity,task2/exp7/radio/E2.csv,task2/exp7/radio/SRS.json,task2/exp7/annotations/exp7_translation.csv,UE on Turtlebot
+task2,exp8,ue_turtlebot_out_of_view,task2/exp8/video/frames.csv,task2/exp8/video/color,task2/exp8/video/disparity,task2/exp8/radio/E2.csv,task2/exp8/radio/SRS.json,task2/exp8/annotations/exp8_translation.csv,"UE on Turtlebot, starts out of view"
